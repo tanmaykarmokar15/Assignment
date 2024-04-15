@@ -14,7 +14,7 @@ function calculate(){
     }
     let result;
     switch (operation) {
-        case 'add' :
+        case 'addition' :
             result = number1 + number2;
             break;
         case 'subtract' :
@@ -23,7 +23,7 @@ function calculate(){
         case 'multiply' :
             result = number1 * number2;
             break;
-        case 'divide' :
+        case 'division' :
             if(number2 === 0) {
                 displayResult.textContent ="Cannot divide by zero";
                 return;
